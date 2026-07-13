@@ -29,13 +29,13 @@ assessment in Neotropical birds.
 ```
 Batara-cinerea-workflow/
 │
-├── R/
+├── Traditional Analysis/
 │   └── Batara_cinerea_analysis.R       # Morphometric and vocal statistics
 │
-├── Python/
+├── BirdNET embeddings/
 │   └── BirdNET_UMAP_SVM_analysis.ipynb # BirdNET embeddings, UMAP, SVM
 │
-├── HiPerGator/
+├── SAM3 and BioEncoder/
 │   └── SAM3_BioEncoder_workflow.md     # SAM3 segmentation + BioEncoder
 │                                         training (platform-agnostic)
 │
