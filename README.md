@@ -118,13 +118,13 @@ pip install autodistill autodistill-sam3 roboflow inference \
 
 ---
 
-## Citation
+%## Citation
 
-If you use this code, please cite:
+%If you use this code, please cite:
 
-> Breviglieri, E. L. & Cavarzere Júnior, V. A. (2025). Avian visual model
-> and vocal machine learning help clarify species limits in the Giant
-> Antshrike (Aves, Thamnophilidae). *[Journal name]*.
+%> Breviglieri, E. L. & Cavarzere Júnior, V. A. (2025). Avian visual model
+%> and vocal machine learning help clarify species limits in the Giant
+%> Antshrike (Aves, Thamnophilidae). *[Journal name]*.
 
 ---
 
