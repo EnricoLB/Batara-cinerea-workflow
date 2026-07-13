@@ -42,6 +42,7 @@ R >= 4.2.0. Install all required packages with:
 install.packages(c("MASS", "ggplot2", "ggpubr", "dplyr", "emmeans",
                    "nlme", "tidyr", "multcompView", "multcomp",
                    "ggExtra", "ggrepel", "cowplot"))
+```
 
 Analyses performed
 Sex comparisons — Shapiro-Wilk normality tests, Welch t-tests,
