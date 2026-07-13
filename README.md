@@ -3,8 +3,10 @@
 
 Code supplement for:
 **"Avian visual model and vocal machine learning help clarify species limits
-in the Giant Antshrike (Aves, Thamnophilidae)"** n/
-Enrico L. Breviglieri & Vagner Aparecido Cavarzere Júnior n/
+in the Giant Antshrike (Aves, Thamnophilidae)"** 
+
+Enrico L. Breviglieri & Vagner Aparecido Cavarzere Júnior 
+
 UNESP — Instituto de Biociências de Botucatu, São Paulo, Brazil
 
 ---
