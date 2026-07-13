@@ -4,7 +4,10 @@
 ### Requirements
 - Python 3.10
 - A machine with a GPU (or Google Colab with GPU runtime)
-- I used HiperGator. The workflow for HiperGator is in the same folder as this file on GitHub.
+  
+---
+### For HiperGator users
+- I used HiperGator to perform this analysis. The workflow for HiperGator is in the same folder as this file at https://github.com/EnricoLB/Batara-cinerea-workflow/blob/523470b512f23d03ed2535962bd392098d4cfe3a/HiperGator/Sam3%2BBioencoder_Hipergator.pdf.
 
 ---
 
