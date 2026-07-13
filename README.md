@@ -1,5 +1,4 @@
 
-```markdown
 # *Batara cinerea* — Integrative Taxonomic Analysis
 
 Code supplement for:
