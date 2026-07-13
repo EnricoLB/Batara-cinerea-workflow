@@ -4,6 +4,7 @@
 ### Requirements
 - Python 3.10
 - A machine with a GPU (or Google Colab with GPU runtime)
+- I used HiperGator. The workflow for HiperGator is in the same folder as this file on GitHub.
 
 ---
 
