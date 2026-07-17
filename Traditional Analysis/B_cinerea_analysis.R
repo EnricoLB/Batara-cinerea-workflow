@@ -588,3 +588,36 @@ final_plot_vocal
 output_file_vocal <- "/Users/en_gl/Documents/Unesp/Mestrado/B.cinerea/Plots/lda_vocal_plot_hd.png"
 save_plot(output_file_vocal, final_plot_vocal,
           base_height = 6, base_width = 8, dpi = 600)
+
+# ============================================================
+# LDA DIAGNOSABILITY & CONFUSION MATRICES
+# ============================================================
+
+# --- 1. Morphological Data ---
+# Extract posterior probabilities and predicted classes
+lda_pred_morpho <- predict(lda_result)
+
+# Build the confusion matrix
+conf_matrix_morpho <- table(True = my_data$ssp, Predicted = lda_pred_morpho$class)
+
+# Calculate overall misclassification rate
+misclass_rate_morpho <- sum(my_data$ssp != lda_pred_morpho$class) / nrow(my_data)
+
+cat("\n--- MORPHOLOGICAL LDA RESULTS ---\n")
+print(conf_matrix_morpho)
+cat("Overall Misclassification Rate:", round(misclass_rate_morpho * 100, 1), "%\n")
+
+
+# --- 2. Vocal Data ---
+# Extract posterior probabilities and predicted classes
+lda_pred_vocal <- predict(lda_result_v)
+
+# Build the confusion matrix
+conf_matrix_vocal <- table(True = my_data_v$Taxon, Predicted = lda_pred_vocal$class)
+
+# Calculate overall misclassification rate
+misclass_rate_vocal <- sum(my_data_v$Taxon != lda_pred_vocal$class) / nrow(my_data_v)
+
+cat("\n--- VOCAL LDA RESULTS ---\n")
+print(conf_matrix_vocal)
+cat("Overall Misclassification Rate:", round(misclass_rate_vocal * 100, 1), "%\n")
